@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "json-server",
+      "password": "typicode"
+    },
+    {
+      "name": "hhhhh",
+      "email": "jjjj@jjjjj",
+      "password": "ddddddddd",
+      "id": 2
+    },
+    {
+      "name": "bbbbbbbbbb",
+      "email": "ddddd@jjjjj",
+      "password": "gggggggg",
+      "id": 3
+    },
+    {
+      "name": "''''''''",
+      "email": "mmm@frfr",
+      "password": "\"'(t'\"f",
+      "id": 4
+    }
+  ],
+  "sessions": [
+    {
+      "email": "rrrr@kkkk",
+      "password": "rkjrjrjr",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
