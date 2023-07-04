@@ -15,7 +15,7 @@ html {
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:rgb(215, 196, 199);
+    background-color:rgb(233, 223, 223);
 }
 
 input,
@@ -82,8 +82,8 @@ svg {
 #footer,
 .cart_head,
 .cart_foot {
-    background-color: rgb(228, 139, 168);
-    color: #444248;
+    background-color: #d8b1be;
+    color: #726c7e;
 }
 
 
@@ -141,7 +141,7 @@ font-style: oblique;}
     padding-top: 1rem;
     overflow: hidden;}
 
-    img.Bag{ width:5%;
+    img.Bag{ width:19%;
              max-width: 40px;}
             
     img {
@@ -177,7 +177,7 @@ font-style: oblique;}
 
         
         .added {
-            color: #d2e7e5;
+            color: #f297e4;
         }
     
 
@@ -223,7 +223,7 @@ font-style: oblique;}
     background-color: rgba(255, 86, 216, 0.3);
 }
 
-.cart_content {background-color:rgb(215, 196, 199);
+.cart_content {background-color: #d8b1be;
     position: absolute;
     top: 0;
     right: 0;

@@ -36,45 +36,26 @@ html {
 
 /***    Landing Page     ***/
 .main-title,
-.main-para {
+.card-title,
+.card-text {
     color: #f1f1f1
 }
 
-.main-title {
-    padding-top: 10rem;
+.main-title,
+.card-title,
+.card-text {
+    padding-top: 2rem;
     font-size: 3rem;
     font-family: 'Fascinate', cursive;
     text-transform: uppercase
 }
 
-.main-para {
+.card-title,
+.card-text {
     font-size: 2.5rem;
     text-Transform: capitalize
 }
 
-#reg_btn span {
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-#reg_btn span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-#reg_btn:hover span {
-  padding-right: 25px;
-}
-
-#reg_btn:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 
 /***    Login Page     ***/
 .m-5-auto { position: relative;
@@ -173,6 +154,14 @@ form span {
     float: left
 }
 
-/***    Home Page     ***/
-.home-page-title {
-    color: #222}
+
+.navbar {
+    background-color:  #d8b1be;
+  } 
+  .navbar-brand,
+  .nav-link ,
+  .buttons { color:  #726c7e;}
+  
+.buttons { width: 10rem;
+    border-radius: 10;
+    border: none;}

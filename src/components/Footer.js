@@ -16,13 +16,9 @@ const Footer = () => {
 
                     <p>
                         Built by | &nbsp;
-                        <a
-                            href="https://gulshansongara.netlify.app"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+                        
                             Naghma B'n
-                        </a>
+                       
                     </p>
                 </div>
             </footer>

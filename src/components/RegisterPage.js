@@ -56,6 +56,7 @@ const SignUpPage = () => {
                 </p>
             </form>
             <footer>
+            <p>Already have an account  <Link to="/login">login</Link>.</p>
                 <p><Link to="/">Back to Homepage</Link>.</p>
             </footer>
         </div>

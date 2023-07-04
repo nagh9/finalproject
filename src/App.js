@@ -3,21 +3,20 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import LandingPage from './components/LandingPage'
+
 import LoginPage from './components/LoginPage'
 import RegisterPage from './components/RegisterPage'
-import HomePage from './components/HomePage'
 import Main from './Pages/Main'
+import LandingPage from './components/LandingPage'
 
 
 export default function App() {
   return (
       <Router>
           <div>
-                  <Route exact path="/" component={ LandingPage } />
+          <Route exact path="/" component={ LandingPage} />
                   <Route path="/login" component={ LoginPage } />
                   <Route path="/register" component={ RegisterPage } />
-                  <Route path="/home" component={ HomePage } />
                  <Route path="/main" component={Main}/>
               <Footer />
           </div>

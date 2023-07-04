@@ -24,12 +24,13 @@ const Header = () => {
                 <div className="container">
                     <div className="navbar">
                         <h4>Makeup store</h4>
-                        <div className="nav_menu">
+                        <div className="justify-content-end">
                             <div
                                 title="Cart"
                                 className="cart_icon"
                                 onClick={() => handleOpenCart(true)}
                             >
+                               
                                 <img className='Bag' src="/images/bag-shopping-solid.svg" alt="bag-shopping-solid" />
                                 <span className="badge">{cartQuantity}</span>
                             </div>
